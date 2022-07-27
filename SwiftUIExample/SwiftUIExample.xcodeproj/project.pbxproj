@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5317262C289129CA003C2A1A /* AppListRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5317262B289129CA003C2A1A /* AppListRow.swift */; };
+		5317262D289129CA003C2A1A /* AppListRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5317262B289129CA003C2A1A /* AppListRow.swift */; };
 		53ABDCE4288E680E007F642B /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53ABDCE3288E680E007F642B /* Tests_iOS.swift */; };
 		53ABDCE6288E680E007F642B /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53ABDCE5288E680E007F642B /* Tests_iOSLaunchTests.swift */; };
 		53ABDCF0288E680E007F642B /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53ABDCEF288E680E007F642B /* Tests_macOS.swift */; };
@@ -37,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5317262B289129CA003C2A1A /* AppListRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppListRow.swift; sourceTree = "<group>"; };
 		53ABDCCB288E680A007F642B /* SwiftUIExampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIExampleApp.swift; sourceTree = "<group>"; };
 		53ABDCCC288E680A007F642B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		53ABDCCD288E680E007F642B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -100,6 +103,7 @@
 				53ABDCCB288E680A007F642B /* SwiftUIExampleApp.swift */,
 				53ABDCCC288E680A007F642B /* ContentView.swift */,
 				53ABDCCD288E680E007F642B /* Assets.xcassets */,
+				5317262B289129CA003C2A1A /* AppListRow.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -300,6 +304,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				53ABDCF5288E680E007F642B /* ContentView.swift in Sources */,
+				5317262C289129CA003C2A1A /* AppListRow.swift in Sources */,
 				53ABDCF3288E680E007F642B /* SwiftUIExampleApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -309,6 +314,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				53ABDCF6288E680E007F642B /* ContentView.swift in Sources */,
+				5317262D289129CA003C2A1A /* AppListRow.swift in Sources */,
 				53ABDCF4288E680E007F642B /* SwiftUIExampleApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
