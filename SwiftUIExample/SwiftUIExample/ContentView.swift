@@ -46,12 +46,13 @@ struct AppListRow: View {
             Spacer()
             VStack(alignment: .center) {
                 Button("받기", action: {})
-                    .frame(width: 70, height: nil, alignment: .center)
-                    .background(.brown)
+                    .frame(width: 60, height: 23, alignment: .center)
+                    .background(Color(white: 0.95))
                     .cornerRadius(100)
+                    .font(.system(size: 14))
                     
                 Text("인앱 결제")
-                    .font(.system(size: 12))
+                    .font(.system(size: 10))
             }
         }
     }
