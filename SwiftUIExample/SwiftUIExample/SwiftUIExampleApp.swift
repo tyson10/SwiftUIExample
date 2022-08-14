@@ -13,7 +13,7 @@ struct SwiftUIExampleApp: App {
     
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            AppListView()
         }.onChange(of: scenePhase) { phase in
             switch phase {
             case .active:
