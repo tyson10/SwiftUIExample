@@ -11,7 +11,7 @@ struct AppListView: View {
     var body: some View {
         NavigationView {
             List {
-                AppListRow()
+                NavigationLink(destination: { AppDetailView() }, label: { AppListRow() })
                 AppListRow()
                 AppListRow()
                 AppListRow()
