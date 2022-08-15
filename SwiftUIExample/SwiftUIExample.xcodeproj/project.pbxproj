@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		53E3524A28AA842300C67314 /* TopArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53E3524928AA842300C67314 /* TopArea.swift */; };
 		53E85B6B289E517B0029B3D2 /* SwiftUIExampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53E85B6A289E517B0029B3D2 /* SwiftUIExampleApp.swift */; };
 		53E85B6D289E517B0029B3D2 /* AppListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53E85B6C289E517B0029B3D2 /* AppListView.swift */; };
 		53E85B6F289E517E0029B3D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53E85B6E289E517E0029B3D2 /* Assets.xcassets */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		53E3524928AA842300C67314 /* TopArea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopArea.swift; sourceTree = "<group>"; };
 		53E85B67289E517B0029B3D2 /* SwiftUIExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		53E85B6A289E517B0029B3D2 /* SwiftUIExampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIExampleApp.swift; sourceTree = "<group>"; };
 		53E85B6C289E517B0029B3D2 /* AppListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppListView.swift; sourceTree = "<group>"; };
@@ -153,6 +155,7 @@
 			isa = PBXGroup;
 			children = (
 				53EEE75C28A8F90F008005B3 /* AppDetailView.swift */,
+				53E3524928AA842300C67314 /* TopArea.swift */,
 			);
 			path = AppDetail;
 			sourceTree = "<group>";
@@ -288,6 +291,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				53E85B6D289E517B0029B3D2 /* AppListView.swift in Sources */,
+				53E3524A28AA842300C67314 /* TopArea.swift in Sources */,
 				53EEE75D28A8F90F008005B3 /* AppDetailView.swift in Sources */,
 				53EEE75928A8F453008005B3 /* AppListRow.swift in Sources */,
 				53E85B6B289E517B0029B3D2 /* SwiftUIExampleApp.swift in Sources */,
