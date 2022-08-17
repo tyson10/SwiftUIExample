@@ -24,6 +24,8 @@ extension AppDetailView {
                         Text("앱내 구입")
                     }
                 }
+                
+                Button("공유", action: {})
             }
         }
     }
