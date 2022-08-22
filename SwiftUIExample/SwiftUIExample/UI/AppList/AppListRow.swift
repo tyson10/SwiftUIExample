@@ -7,18 +7,6 @@
 
 import SwiftUI
 
-struct AppListRow: View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
-    }
-}
-
-struct AppListRow_Previews: PreviewProvider {
-    static var previews: some View {
-        AppListRow()
-    }
-}
-
 extension AppListView {
     internal struct AppListRow: View {
         var body: some View {
@@ -47,5 +35,11 @@ extension AppListView {
                 }
             }
         }
+    }
+}
+
+struct AppListRow_Previews: PreviewProvider {
+    static var previews: some View {
+        AppListView.AppListRow()
     }
 }
