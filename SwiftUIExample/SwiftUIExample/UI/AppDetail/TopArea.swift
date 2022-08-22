@@ -21,10 +21,7 @@ extension AppDetailView {
                     Spacer()
                     HStack {
                         Button("받기", action: {})
-                            .frame(width: 60, height: 23, alignment: .center)
-                            .background(Color(white: 0.95))
-                            .clipShape(Capsule())
-                            .font(.system(size: 14))
+                            .buttonStyle(Download())
                         
                         Text("앱내 구입")
                     }
