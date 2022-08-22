@@ -39,7 +39,7 @@ extension AppListView {
                     Button("받기", action: {})
                         .frame(width: 60, height: 23, alignment: .center)
                         .background(Color(white: 0.95))
-                        .cornerRadius(100)
+                        .clipShape(Capsule())
                         .font(.system(size: 14))
                     
                     Text("인앱 결제")
