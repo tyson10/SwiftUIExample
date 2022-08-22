@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		537FDDE528B3AAF0002D89A1 /* ButtonStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 537FDDE428B3AAF0002D89A1 /* ButtonStyles.swift */; };
 		53E3524A28AA842300C67314 /* TopArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53E3524928AA842300C67314 /* TopArea.swift */; };
 		53E85B6B289E517B0029B3D2 /* SwiftUIExampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53E85B6A289E517B0029B3D2 /* SwiftUIExampleApp.swift */; };
 		53E85B6D289E517B0029B3D2 /* AppListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53E85B6C289E517B0029B3D2 /* AppListView.swift */; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		537FDDE428B3AAF0002D89A1 /* ButtonStyles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStyles.swift; sourceTree = "<group>"; };
 		53E3524928AA842300C67314 /* TopArea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopArea.swift; sourceTree = "<group>"; };
 		53E85B67289E517B0029B3D2 /* SwiftUIExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		53E85B6A289E517B0029B3D2 /* SwiftUIExampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIExampleApp.swift; sourceTree = "<group>"; };
@@ -138,6 +140,7 @@
 			children = (
 				53EEE75E28A8FBF0008005B3 /* AppDetail */,
 				53EEE75B28A8F80D008005B3 /* AppList */,
+				537FDDE428B3AAF0002D89A1 /* ButtonStyles.swift */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -291,6 +294,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				53E85B6D289E517B0029B3D2 /* AppListView.swift in Sources */,
+				537FDDE528B3AAF0002D89A1 /* ButtonStyles.swift in Sources */,
 				53E3524A28AA842300C67314 /* TopArea.swift in Sources */,
 				53EEE75D28A8F90F008005B3 /* AppDetailView.swift in Sources */,
 				53EEE75928A8F453008005B3 /* AppListRow.swift in Sources */,
