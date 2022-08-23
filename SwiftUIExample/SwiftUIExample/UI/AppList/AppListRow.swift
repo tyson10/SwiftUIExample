@@ -24,7 +24,7 @@ extension AppListView {
                 }
                 Spacer()
                 VStack(alignment: .center) {
-                    Button("받기", action: {})
+                    Button(action: { }, label: { Text("받기").foregroundColor(.blue) })
                         .buttonStyle(Download())
                     
                     Text("인앱 결제")

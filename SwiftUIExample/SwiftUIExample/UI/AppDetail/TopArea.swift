@@ -20,7 +20,7 @@ extension AppDetailView {
                     Text("무슨 앱인지 알려드림")
                     Spacer()
                     HStack {
-                        Button("받기", action: {})
+                        Button(action: { }, label: { Text("받기").foregroundColor(.blue) })
                             .buttonStyle(Download())
                         
                         Text("앱내 구입")
