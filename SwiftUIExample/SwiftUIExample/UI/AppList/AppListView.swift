@@ -12,13 +12,13 @@ struct AppListView: View {
         NavigationView {
             List {
                 NavigationLink(destination: { AppDetailView() }, label: { AppListRow() })
-                AppListRow()
-                AppListRow()
-                AppListRow()
-                AppListRow()
-                AppListRow()
+                NavigationLink(destination: { AppDetailView() }, label: { AppListRow() })
+                NavigationLink(destination: { AppDetailView() }, label: { AppListRow() })
+                NavigationLink(destination: { AppDetailView() }, label: { AppListRow() })
+                NavigationLink(destination: { AppDetailView() }, label: { AppListRow() })
             }
             .navigationTitle("앱 스토어")
+            .navigationBarTitleDisplayMode(.inline)
         }
     }
 }
