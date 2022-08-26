@@ -9,10 +9,11 @@ import SwiftUI
 
 struct AppDetailView: View {
     var body: some View {
-        List {
-            TopArea()
+        ScrollView(showsIndicators: false) {
+            VStack {
+                TopArea()
+            }
         }
-        .listStyle(.plain)
     }
 }
 
