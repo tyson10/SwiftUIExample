@@ -104,8 +104,8 @@
 			children = (
 				53E85B6A289E517B0029B3D2 /* SwiftUIExampleApp.swift */,
 				53EEE75A28A8F7F6008005B3 /* UI */,
-				53E85B6E289E517E0029B3D2 /* Assets.xcassets */,
 				53E85B70289E517E0029B3D2 /* Preview Content */,
+				53F34A8B28B90FA8002D5352 /* Resources */,
 			);
 			path = SwiftUIExample;
 			sourceTree = "<group>";
@@ -161,6 +161,14 @@
 				53E3524928AA842300C67314 /* TopArea.swift */,
 			);
 			path = AppDetail;
+			sourceTree = "<group>";
+		};
+		53F34A8B28B90FA8002D5352 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				53E85B6E289E517E0029B3D2 /* Assets.xcassets */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
