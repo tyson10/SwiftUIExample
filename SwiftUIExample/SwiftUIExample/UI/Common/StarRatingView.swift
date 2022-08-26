@@ -9,7 +9,23 @@ import SwiftUI
 
 struct StarRatingView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        HStack {
+            Image("star_empty")
+                .resizable()
+                .frame(width: 50, height: 50, alignment: .center)
+            Image("star_empty")
+                .resizable()
+                .frame(width: 50, height: 50, alignment: .center)
+            Image("star_empty")
+                .resizable()
+                .frame(width: 50, height: 50, alignment: .center)
+            Image("star_empty")
+                .resizable()
+                .frame(width: 50, height: 50, alignment: .center)
+            Image("star_empty")
+                .resizable()
+                .frame(width: 50, height: 50, alignment: .center)
+        }
     }
 }
 
