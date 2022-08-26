@@ -27,7 +27,10 @@ extension AppDetailView {
                     }
                 }
                 
-                Button("공유", action: {})
+                Button(action: {}) {
+                    Image("ShareIcon").resizable()
+                }
+                .frame(width: 25, height: 25, alignment: .center)
             }
         }
     }
