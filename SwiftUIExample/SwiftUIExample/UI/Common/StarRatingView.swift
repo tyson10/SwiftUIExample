@@ -9,23 +9,24 @@ import SwiftUI
 
 struct StarRatingView: View {
     var body: some View {
-        HStack {
+        HStack() {
             Image("star_empty")
                 .resizable()
-                .frame(width: 50, height: 50, alignment: .center)
+                .frame(width: .infinity, height: .infinity, alignment: .center)
             Image("star_empty")
                 .resizable()
-                .frame(width: 50, height: 50, alignment: .center)
+                .frame(width: .infinity, height: .infinity, alignment: .center)
             Image("star_empty")
                 .resizable()
-                .frame(width: 50, height: 50, alignment: .center)
+                .frame(width: .infinity, height: .infinity, alignment: .center)
             Image("star_empty")
                 .resizable()
-                .frame(width: 50, height: 50, alignment: .center)
+                .frame(width: .infinity, height: .infinity, alignment: .center)
             Image("star_empty")
                 .resizable()
-                .frame(width: 50, height: 50, alignment: .center)
+                .frame(width: .infinity, height: .infinity, alignment: .center)
         }
+        .aspectRatio(CGSize(width: 5, height: 1), contentMode: .fit)
     }
 }
 
