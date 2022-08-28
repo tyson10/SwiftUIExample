@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct StarRatingView: View {
+    @State var count: Int = 5
+    
     var body: some View {
         HStack() {
             Image("star_empty")
@@ -26,7 +28,7 @@ struct StarRatingView: View {
                 .resizable()
                 .frame(width: .infinity, height: .infinity, alignment: .center)
         }
-        .aspectRatio(CGSize(width: 5, height: 1), contentMode: .fit)
+        .aspectRatio(CGSize(width: self.count, height: 1), contentMode: .fit)
     }
 }
 
