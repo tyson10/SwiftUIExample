@@ -11,22 +11,12 @@ struct StarRatingView: View {
     @State var count: Int = 5
     
     var body: some View {
+        let images: [Image] = [Image].init(repeating: Image("star_empty"), count: self.count)
         HStack() {
-            Image("star_empty")
-                .resizable()
-                .frame(width: .infinity, height: .infinity, alignment: .center)
-            Image("star_empty")
-                .resizable()
-                .frame(width: .infinity, height: .infinity, alignment: .center)
-            Image("star_empty")
-                .resizable()
-                .frame(width: .infinity, height: .infinity, alignment: .center)
-            Image("star_empty")
-                .resizable()
-                .frame(width: .infinity, height: .infinity, alignment: .center)
-            Image("star_empty")
-                .resizable()
-                .frame(width: .infinity, height: .infinity, alignment: .center)
+            ForEach(0..<images.count) { idx in
+                images[idx].resizable()
+                    .frame(width: .infinity, height: .infinity, alignment: .center)
+            }
         }
         .aspectRatio(CGSize(width: self.count, height: 1), contentMode: .fit)
     }
